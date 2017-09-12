@@ -12,10 +12,19 @@ public class BatTest {
 
     @Test
     public void eat() throws Exception {
-        Ant ant1 = new Ant("bob");
+        Fly fly1 = new Fly("bob");
         Bat bat1 = new Bat("Scary bat");
-        assertEquals("Scary bat Bat has just eaten a bob Ant", bat1.toString() + " has just eaten a "+ ant1.toString());
+        assertEquals("Scary bat Bat has just eaten a bob Fly", bat1.toString() + " has just eaten a "+ fly1.toString());
+        Things banana = new Things("banana");
+        assertEquals("Scary bat Bat won't eat banana", bat1.toString() + " won't eat "+ banana.toString());
 
+    }
+
+    @Test
+    public void donteat() throws Exception {
+        Bat bat1 = new Bat("Scary bat");
+        Things banana = new Things("banana");
+        assertEquals("Scary bat Bat won't eat banana", bat1.toString() + " won't eat "+ banana.toString());
 
     }
 
