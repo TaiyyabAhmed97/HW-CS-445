@@ -19,7 +19,7 @@
     <SUITE FILE_PATH="coverage/Things_and_Creatures$CreaturesTest_whatDidYouEat.coverage" NAME="CreaturesTest.whatDidYouEat Coverage Results" MODIFIED="1505258973686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Things_and_Creatures$FlyTest_fly.coverage" NAME="FlyTest.fly Coverage Results" MODIFIED="1505258859866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Things_and_Creatures$BatTest_move.coverage" NAME="BatTest.move Coverage Results" MODIFIED="1505259541756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Things_and_Creatures$AntTest_testmove.coverage" NAME="AntTest.testmove Coverage Results" MODIFIED="1505188122266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Things_and_Creatures$AntTest_testmove.coverage" NAME="AntTest.testmove Coverage Results" MODIFIED="1505260419713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Things_and_Creatures$CreaturesTest_testmove.coverage" NAME="CreaturesTest.testmove Coverage Results" MODIFIED="1505258960238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Things_and_Creatures$CreaturesTest_eat.coverage" NAME="CreaturesTest.eat Coverage Results" MODIFIED="1505258940005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Things_and_Creatures$TigerTest_move.coverage" NAME="TigerTest.move Coverage Results" MODIFIED="1505258816772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -45,16 +45,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_SORT_BY_CLASS.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index_SORT_BY_CLASS.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BatTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/BatTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -100,12 +90,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AntTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AntTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/AntTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/Things.java" />
         <option value="$PROJECT_DIR$/Tests/CreaturesTest.java" />
         <option value="$PROJECT_DIR$/Tests/FlyTest.java" />
-        <option value="$PROJECT_DIR$/Tests/AntTest.java" />
         <option value="$PROJECT_DIR$/Tests/TigerTest.java" />
         <option value="$PROJECT_DIR$/src/Creatures.java" />
         <option value="$PROJECT_DIR$/src/TestCreature.java" />
@@ -180,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/Fly.java" />
         <option value="$PROJECT_DIR$/src/Bat.java" />
         <option value="$PROJECT_DIR$/Tests/BatTest.java" />
+        <option value="$PROJECT_DIR$/Tests/AntTest.java" />
       </list>
     </option>
   </component>
@@ -262,7 +267,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BatTest.donteat">
+  <component name="RunManager" selected="JUnit.AntTest.testmove">
+    <configuration name="AntTest.testmove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Things and Creatures" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AntTest" />
+      <option name="METHOD_NAME" value="testmove" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="BatTest.donteat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Things and Creatures" />
@@ -311,26 +336,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BatTest" />
       <option name="METHOD_NAME" value="move" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CreaturesTest.testmove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Things and Creatures" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreaturesTest" />
-      <option name="METHOD_NAME" value="testmove" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -447,17 +452,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BatTest.move" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BatTest.eat" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CreaturesTest.testmove" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CreaturesTest.whatDidYouEat" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BatTest.donteat" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CreaturesTest.whatDidYouEat" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BatTest.donteat" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AntTest.testmove" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BatTest.donteat" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BatTest.eat" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BatTest.move" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CreaturesTest.whatDidYouEat" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CreaturesTest.testmove" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AntTest.testmove" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BatTest.donteat" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BatTest.eat" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BatTest.move" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CreaturesTest.whatDidYouEat" />
       </list>
     </recent_temporary>
   </component>
@@ -475,14 +480,17 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="AntTest_testmove - 2017.09.12 at 18h 53m 36s.xml">
+      <configuration name="AntTest.testmove" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AntTest_testmove - 2017.09.12 at 18h 53m 40s.xml">
+      <configuration name="AntTest.testmove" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BatTest_donteat - 2017.09.12 at 18h 46m 51s.xml">
       <configuration name="BatTest.donteat" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BatTest_donteat - 2017.09.12 at 18h 46m 56s.xml">
       <configuration name="BatTest.donteat" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BatTest_eat - 2017.09.12 at 18h 38m 32s.xml">
-      <configuration name="BatTest.eat" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BatTest_eat - 2017.09.12 at 18h 38m 41s.xml">
       <configuration name="BatTest.eat" configurationId="JUnit" />
@@ -501,9 +509,6 @@
     </history-entry>
     <history-entry file="BatTest_move - 2017.09.12 at 18h 39m 03s.xml">
       <configuration name="BatTest.move" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CreaturesTest_whatDidYouEat - 2017.09.12 at 18h 29m 34s.xml">
-      <configuration name="CreaturesTest.whatDidYouEat" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -808,17 +813,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCreature" />
-    <entry file="file://$PROJECT_DIR$/src/Ant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#96#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autoscript">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -941,14 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/AntTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -965,6 +951,27 @@
         <state relative-caret-position="396">
           <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/AntTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
