@@ -1,3 +1,5 @@
+cd Things and Creatures
+cd src
 javac Things.java
 javac Creatures.java
 javac Flyer.java
