@@ -1,0 +1,10 @@
+javac Things.java
+javac Creatures.java
+javac Flyer.java
+javac Tiger.java
+javac Ant.java
+javac Fly.java
+javac Bat.java
+javac TestCreature.java
+java TestCreature
+
