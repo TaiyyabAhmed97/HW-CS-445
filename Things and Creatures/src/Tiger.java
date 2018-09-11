@@ -8,7 +8,4 @@ public class Tiger extends Creatures {
     {
         System.out.println(this.toString() + " has just pounced.");
     }
-
-
-
 }
