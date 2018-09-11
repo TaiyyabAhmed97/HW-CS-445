@@ -1,4 +1,4 @@
-cd Things and Creatures
+cd ThingsandCreatures
 cd src
 javac Things.java
 javac Creatures.java
